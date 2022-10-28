@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txtNameApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="@font/poppins_bold"
+        android:letterSpacing="0.2"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/button"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/poppins_bold"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:letterSpacing="0.1"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins_bold"
+        android:hint="Senha"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:inputType="textPassword"
+        android:letterSpacing="0.1"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+    <CheckBox
+        android:id="@+id/ckbShowPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/white"
+        android:fontFamily="@font/poppins_bold"
+        android:letterSpacing="0.2"
+        android:paddingTop="5dp"
+        android:text="Mostrar Senha"
+        android:layout_gravity="left"
+        android:layout_marginStart="52dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/button"
+        android:elevation="10dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textAlignment="center"
+        android:letterSpacing="0.2"
+        android:text="Entrar"
+        android:textSize="28dp"
+        app:cornerRadius="@android:dimen/thumbnail_height" />
+
+
+    <TextView
+        android:id="@+id/txtCreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_account"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:letterSpacing="0.2"
+        android:layout_marginTop="60dp"
+        />
+</LinearLayout>

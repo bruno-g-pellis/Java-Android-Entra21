@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txv_choose_tool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Escolha a ferramenta"
+            android:fontFamily="@font/poppins_bold"
+            android:letterSpacing="0.2"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textColor="@color/button"
+           android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            />
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:columnCount="2"
+            app:rowCount="2"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cav_bhaskara"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                app:cardCornerRadius="25dp"
+                app:layout_columnWeight="1"
+                app:layout_gravity="center"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_bhaskara"
+                        android:layout_width="match_parent"
+                        android:layout_height="85dp"
+                        android:background="@color/black"
+                        android:layout_marginBottom="10dp"
+                        app:srcCompat="@drawable/bhaskara_card" />
+
+                    <TextView
+                        android:id="@+id/txv_bhaskara"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fórmula de Bhaskara"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textSize="12sp"
+                        android:layout_marginBottom="5dp"
+                        android:letterSpacing="0.1"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+
+                        />
+
+                    <Button
+                        android:id="@+id/btn_enter_bhaskara"
+                        style="@style/button_little"
+                        android:text="Entrar"
+                        app:cornerRadius="@android:dimen/notification_large_icon_width" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cav_AP"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                app:cardCornerRadius="25dp"
+                app:layout_columnWeight="1"
+                app:layout_gravity="center"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            </androidx.gridlayout.widget.GridLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

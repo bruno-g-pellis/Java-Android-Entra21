@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calculadora Simples</string>
+    <string name="somar">Somar</string>
+    <string name="subtrair">Subtrair</string>
+    <string name="multiplicar">Multiplicar</string>
+    <string name="dividir">Dividir</string>
+    <string name="valor1">Digite o primeiro valor</string>
+    <string name="valor2">Digite o segundo valor</string>
+
+</resources>

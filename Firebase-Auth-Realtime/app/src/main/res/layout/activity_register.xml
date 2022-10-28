@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activity.Register">
+
+    <TextView
+        android:id="@+id/txv_textCreateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/poppins_bold"
+        android:letterSpacing="0.1"
+        android:text="Criar Conta"
+        android:textAlignment="center"
+        android:textColor="@color/button"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/edt_nameRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/poppins_bold"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:letterSpacing="0.1"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/edt_lastNameRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/poppins_bold"
+        android:hint="Sobrenome"
+        android:inputType="textPersonName"
+        android:letterSpacing="0.1"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/edt_emailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/poppins_bold"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:letterSpacing="0.1"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/edt_passwordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/poppins_bold"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:letterSpacing="0.2"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edt_repitePasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/poppins_bold"
+        android:hint="Confirme Senha"
+        android:inputType="textPassword"
+        android:letterSpacing="0.2"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20dp" />
+
+
+    <CheckBox
+        android:id="@+id/ckb_showPasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:buttonTint="@color/white"
+        android:fontFamily="@font/poppins_bold"
+        android:letterSpacing="0.2"
+        android:paddingTop="5dp"
+        android:text="Mostrar Senha"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/button"
+        android:elevation="10dp"
+        android:fontFamily="@font/poppins_bold"
+        android:letterSpacing="0.2"
+        android:text="Registrar"
+        android:textAlignment="center"
+        android:textSize="28dp"
+        app:cornerRadius="@android:dimen/thumbnail_height" />
+
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="409dp"
+            android:layout_height="229dp"
+            android:layout_marginBottom="60dp"
+            app:srcCompat="@drawable/main"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="60dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:onClick="entrar"
+            android:text="CALCULADORA DE ÍNDICE DE MASSA CORPORAL (IMC)"
+            android:textColor="@color/greenB"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/btn_entrar"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/greenB"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:onClick="entrar"
+            android:text="Entrar"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_aboutIMC2"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/greenB"
+            android:fontFamily="sans-serif-medium"
+            android:onClick="irSobreIMC"
+            android:text="Sobre IMC"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

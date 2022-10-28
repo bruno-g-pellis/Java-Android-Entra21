@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="button_big">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:backgroundTint">@color/button</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:letterSpacing">0.2</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="button_little">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:backgroundTint">@color/button</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:letterSpacing">0.2</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:elevation">10dp</item>
+
+    </style>
+
+    <style name="button_medium">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:backgroundTint">@color/button</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:letterSpacing">0.2</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:elevation">10dp</item>
+
+    </style>
+
+
+</resources>
